@@ -1,0 +1,37 @@
+# 字节编译 / 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 分发 / 打包
+build/
+dist/
+*.egg-info/
+.eggs/
+*.whl
+
+# 虚拟环境
+.venv/
+venv/
+env/
+ENV/
+
+# 测试与覆盖率
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# 类型检查 / 静态分析
+.mypy_cache/
+.ruff_cache/
+
+# 编辑器 / 系统
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# WARC 数据文件（体积大，不入库）
+*.warc
+*.warc.gz
